@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Why_is_Python_useful?"
+        >Why is Python useful?</a
+      >
+      <a class="nav-link" href="#Hello_World">Hello World</a>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+      <a class="nav-link" href="#User_Input">User Input</a>
+      <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
+      <a class="nav-link" href="#If/Else_Statements">If/Else Statements</a>
+      <a class="nav-link" href="#Loops">Loops</a>
+      <a class="nav-link" href="#Functions">Functions</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <p>
+          Python is a high-level programming language known for its simplicity
+          and readability. It was created by Guido van Rossum and first released
+          in 1991.
+        </p>
+        <p>
+          Python emphasizes code readability with its clear and expressive
+          syntax, making it an excellent choice for beginners and experienced
+          programmers alike.
+        </p>
+      </section>
+      <section id="Why_is_Python_useful?" class="main-section">
+        <header>Why is Python useful?</header>
+        <p>
+          Python is widely used in various industries and domains due to its
+          simplicity, versatility, and robustness.
+        </p>
+        <p>Common uses of Python:</p>
+        <ul>
+          <li>Web Development</li>
+          <li>Machine Learning</li>
+          <li>Data Analysis</li>
+          <li>Artificial Intelligence</li>
+          <li>Automation</li>
+        </ul>
+      </section>
+      <section id="Hello_World" class="main-section">
+        <header>Hello World</header>
+        <p>
+          In Python, printing "Hello, World!" to the screen is straightforward.
+          Here's the code:
+        </p>
+        <code>print("Hello World!")</code>
+        <p>
+          Printing in Python is very easy and we don't have to worry about
+          ending lines with a semicolon.
+        </p>
+      </section>
+      <section id="Data_Types" class="main-section">
+        <header>Data Types</header>
+        <p>
+          Understanding data types is crucial for manipulating and storing
+          different kinds of data in Python programs.
+        </p>
+        <p>Some commonly used data types:</p>
+        <ul>
+          <li>Integers: 3 or 56</li>
+          <li>Floats: 3.1415</li>
+          <li>Strings: "Hello"</li>
+          <li>Booleans: true or false</li>
+          <li>Lists: [1, 2, 3]</li>
+          <li>Dictionaries: {key: value}</li>
+        </ul>
+      </section>
+      <section id="User_Input" class="main-section">
+        <header>User Input</header>
+        <p>
+          User input allows programs to interact with users by accepting data
+          entered via the keyboard.
+        </p>
+        <p>
+          In Python, you can use the <code>input()</code> function to prompt the
+          user for input. Here's an example:
+        </p>
+        <code>name = input("Enter your name: ")</code><br />
+        <code>print("Hello", name)</code>
+        <p>
+          The <code>input()</code> function returns a string containing the
+          user's input, which you can then process further in your program.
+        </p>
+        <p>
+          You can convert the user input to other data types (e.g., integers,
+          floats) using type conversion functions like int() and float().
+        </p>
+      </section>
+      <section id="Declaring_Variables" class="main-section">
+        <header>Declaring Variables</header>
+        <p>
+          Variables are used to store data values in a program. In Python, you
+          can declare variables and assign values to them dynamically.
+        </p>
+        <code>age = 22</code>
+        <p>
+          Variable names should be descriptive and follow certain naming
+          conventions, such as using lowercase letters and underscores for
+          readability.
+        </p>
+        <code>user_name = "user123"</code>
+        <p>
+          Python is dynamically typed, so you don't need to specify the data
+          type when declaring variables.
+        </p>
+      </section>
+      <section id="If/Else_Statements" class="main-section">
+        <header>If/Else Statements</header>
+        <p>
+          If/else statements are used for decision-making in Python programs.
+          They allow you to execute different blocks of code based on specified
+          conditions.
+        </p>
+        <p>
+          Conditions are expressions that evaluate to either True or False. If
+          the condition evaluates to True, the code block associated with the if
+          statement is executed. Otherwise, the code block associated with the
+          else statement (if present) is executed.
+        </p>
+        <p>
+          You can also use elif (short for else if) statements to check multiple
+          conditions sequentially.
+        </p>
+        <code
+          >if condition:<br />&nbsp&nbsp&nbsp&nbsp print(1)<br />
+          elif: <br />&nbsp&nbsp&nbsp&nbsp print(2)<br />
+          else: <br />&nbsp&nbsp&nbsp&nbsp print(3)
+        </code>
+      </section>
+      <section id="Loops" class="main-section">
+        <header>Loops</header>
+        <p>
+          Loops are used to iterate over a sequence of elements or execute a
+          block of code repeatedly until a specified condition is met.
+        </p>
+        <p>
+          Python supports two main types of loops: for loops and while loops.
+        </p>
+        <ul>
+          <li>
+            For loops: These are used for iterating over a sequence (such as a
+            list, tuple, or string)
+          </li>
+          <code>for char in word:<br />&nbsp&nbsp&nbsp&nbspprint(char)</code>
+          <li>
+            While loops: These are used when you don't know in advance how many
+            times the loop should execute.
+          </li>
+          <code>while True:<br />&nbsp&nbsp&nbsp&nbspprint(1)</code>
+        </ul>
+        <p>You can use <code>break</code> to end any loop.</p>
+      </section>
+
+      <section id="Functions" class="main-section">
+        <header>Functions</header>
+        <p>
+          Functions are blocks of reusable code that perform a specific task.
+          They help in organizing code, improving readability, and reducing
+          redundancy.
+        </p>
+        <p>
+          In Python, you can define functions using the <code>def</code> keyword
+          followed by the function name and parameters.
+        </p>
+        <p>
+          Functions can take input arguments, perform operations, and return
+          results using the <code>return</code> statement.
+        </p>
+        <code
+          >def add(num_one, num_two):<br />
+          &nbsp&nbsp&nbsp&nbspprint(num_one + num_two)
+        </code>
+      </section>
+      <section id="Reference" class="main-section">
+        <header>Reference</header>
+        <p>
+          All of this information was taken from
+          <a href="https://www.python.org">Python's official website</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
